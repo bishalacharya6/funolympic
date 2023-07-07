@@ -1,0 +1,135 @@
+.fun-olympic {
+    font-size: 5rem;
+    line-height: 4.4rem;
+    margin: 0px 0px 2.4rem;
+    font-weight: bold;
+    width: fit-content;
+    flex-wrap: wrap;
+    height: 27rem;
+    margin-left: 3rem;
+    color: #EEEEEE;
+    background-color: #393E46;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 1rem;
+}
+
+
+.fun-olympic2 {
+    margin: 0px 0px 2.4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+    height: 27rem;
+    margin-left: 10rem;
+}
+
+.live {
+    background-color: #222831;
+}
+
+
+
+.football-1 {
+    width: fit-content;
+    height: 14rem;
+    object-fit: cover;
+    // border: 10px solid #ffffff;
+    // border-radius: 20px;
+    // transition: transform 0.3s ease-in-out;
+
+}
+
+// .football-1:hover {
+//     transform: scale(1.02) translateZ(0);
+//     width: fit-content;
+//     height: 18rem;
+// }
+
+.overflow {
+    overflow: hidden;
+    margin-left: 68px;
+
+    img {
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+}
+
+
+
+.live-anchor {
+    font-size: 16px;
+    color: #EEEEEE;
+    transition: transform 0.3s ease-in-out;
+}
+
+.live-anchor:hover {
+    transform: scale(1.01) translateZ(0);
+    text-decoration: underline;
+}
+
+.newitem {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-top: 3rem;
+
+    .latestnews {
+        margin: 1rem 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        h5 {
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            a {
+                color: #222831;
+                font-weight: bold;
+
+
+
+
+                .fa-arrow-right {
+                    color: #222831;
+                }
+            }
+        }
+    }
+
+    .newscomponent {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+
+.games {
+    margin: 1rem;
+    padding: 1rem;
+
+    img {
+        width: 20rem;
+        height: 12rem;
+        border-radius: 6px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.01) translateZ(0);
+    }
+
+    .game-name {
+        font-size: 1.3rem;
+        color: #EEEEEE;
+    }
+}

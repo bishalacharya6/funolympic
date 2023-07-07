@@ -1,0 +1,33 @@
+.schedule {
+
+    h1 {
+        margin-top: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        color: #222831;
+    }
+
+    .table {
+        thead {
+            tr {
+                th {
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    background-color: #222831 !important;
+                    color: #00ADB5 !important;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    background-color: #222831 !important;
+                    color: #EEEEEE !important;
+                    border: none;
+                }
+            }
+        }
+    }
+}

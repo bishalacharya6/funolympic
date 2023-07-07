@@ -1,0 +1,84 @@
+.video-section {
+    background-color: #222831;
+    color: #EEEEEE;
+    border-radius: 2rem;
+
+
+
+    .sample-video {
+        margin: 4rem 3.5rem 0.5rem 8rem;
+        padding: 1rem;
+
+        .video-content {
+            position: relative;
+
+           
+
+            >video {
+                width: fit-content;
+                height: 25rem;
+            }
+
+            .live-logo {
+                position: absolute;
+                top: -15px;
+                left: -3px;
+                width: 64px;
+                /* Adjust the width as needed */
+                z-index: 1;
+            }
+        }
+
+
+        .about-video {
+            h4 {
+                text-align: justify;
+                margin-bottom: 6rem;
+                margin-top: 5px;
+            }
+
+            p {
+                // margin-top: 8rem;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+ #playingvideo::-webkit-media-controls-current-time-display,
+ #playingvideo::-webkit-media-controls-time-remaining-display,
+ #playingvideo::-webkit-media-controls-timeline {
+     display: none;
+ }
+
+
+.comment-section {
+    margin: 4rem 3.5rem 0.5rem 8rem;
+    padding: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 1rem;
+    // overflow: scroll;
+    // height: 50rem;
+
+    .comment-body {
+        overflow-y: auto;
+        height: 20rem;
+    }
+
+}
+
+#submit {
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: #222831;
+    color: #EEEEEE;
+    font-size: 17px;
+    border-radius: 1px;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
